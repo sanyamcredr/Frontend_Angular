@@ -1,9 +1,47 @@
-<html>
+<html ng-app="Myapp">
 
-<body>This is My First Application</body>
+<meta charset="UTF-8">
+
+<head>
+
+    <script type="text/javascript" src="imports/angular.min.js"></script>
+
+<title> Angular JS Project </title>
+
+    <!-- CSS Files Start !-->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+
+    <!-- CSS Files End !-->
+
+
+</head>
+
+<body>
+
+<div data-ng-controller="ctrl">
+
+    {{ firstname + ',' + lastname }}
+
+</div>
 
 
 
 
+<!-- All js Files Include Here !-->
+
+
+<script type="text/javascript" src="app/app.js"></script>
+<script type="text/javascript" src="imports/bootstrap.min.js"></script>
+<script type="text/javascript" src="imports/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="imports/underscore-min.js"></script>
+<script type="text/javascript" src="js/controllers.js"></script>
+<script type="text/javascript" src="js/directives.js"></script>
+
+
+<!-- JS End !-->
+
+</body>
 
 </html>
